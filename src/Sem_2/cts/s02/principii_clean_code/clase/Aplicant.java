@@ -60,8 +60,12 @@ public abstract class Aplicant{
 	public int getNr_proiecte() {
 		return nr_proiecte;
 	}
-	public void setNr_proiecte(int nr_proiecte) {
+	public void setNr_proiecte(int nr_proiecte, String[] denumiri) {
 		this.nr_proiecte = nr_proiecte;
+		this.denumireProiect = new String[nr_proiecte];
+		for(int i=0; i< nr_proiecte; i++) {
+			this.denumireProiect[i] = denumiri[i];
+		}
 	}
 
 }
