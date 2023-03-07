@@ -1,5 +1,7 @@
 package Sem_2.cts.s02.principii_clean_code.clase;
 
+import java.util.Arrays;
+
 public abstract class Aplicant{
 	protected String nume;
 	protected String prenume;
@@ -7,6 +9,8 @@ public abstract class Aplicant{
 	protected int punctaj;
 	protected int nr_proiecte;
 	protected String[] denumireProiect;
+
+	private static int pragAcceptare = 80;
 	
 	
 	public String getNume() {
@@ -27,12 +31,10 @@ public abstract class Aplicant{
 	public void setVarsta(int varsta) {
 		this.varsta = varsta;
 	}
-	public void statut(){
-		if(punctaj>80)
-			System.out.println("Aplicantul "+nume+" "+prenume+" a fost acceptat.");
-		else
-			System.out.println("Aplicantul "+nume+" "+prenume+" nu a fost acceptat.");
-		}
+	public void afisareStatus(){
+		System.out.println("Aplicantul"+this.nume+" "+this.prenume+((punctaj>Aplicant.pragAcceptare) ? "" : "nu")+" a fost acceptat.");
+	}
+
 	public int getPunctaj() {
 		return punctaj;
 	}
@@ -68,4 +70,19 @@ public abstract class Aplicant{
 		}
 	}
 
+	@Override
+	public String toString() {
+		return "nume='" + nume + '\'' +
+				", prenume='" + prenume + '\'' +
+				", varsta=" + varsta +
+				", punctaj=" + punctaj +
+				", nr_proiecte=" + nr_proiecte +
+				", denumireProiect=" + Arrays.toString(denumireProiect);
+	}
+
+	protected String afisareFinantare(Integer sumaFinantata) {
+		return this.getNume()+" "+this.getPrenume()+" primeste"+sumaFinantata+" Euro/zi in proiect.";
+	}
+
+	public abstract String afisareFinantare();
 }
