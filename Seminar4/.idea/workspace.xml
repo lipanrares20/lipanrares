@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65aa3729-ef72-4cbf-a9c4-a6ae5d52f8e7" name="Changes" comment="Naming">
+      <change beforePath="$PROJECT_DIR$/Seminar2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/out/production/Seminars/Sem_2/cts/s02/principii_clean_code/clase/Angajat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/out/production/Seminars/Sem_2/cts/s02/principii_clean_code/clase/Aplicant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/out/production/Seminars/Sem_2/cts/s02/principii_clean_code/clase/Elev.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/out/production/Seminars/Sem_2/cts/s02/principii_clean_code/clase/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/out/production/Seminars/Sem_2/cts/s02/principii_clean_code/clase/reader/ReaderAngajat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/out/production/Seminars/Sem_2/cts/s02/principii_clean_code/clase/reader/ReaderAplicant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/out/production/Seminars/Sem_2/cts/s02/principii_clean_code/clase/reader/ReaderStudenti.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/out/production/Seminars/Sem_2/cts/s02/principii_clean_code/main/Program.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Seminar2" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Mg8btRxJUD2IQcavSOWbojhDRM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "settings.editor.selected.configurable": "preferences.general"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RaresLipan\CTS\Seminar2" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65aa3729-ef72-4cbf-a9c4-a6ae5d52f8e7" name="Changes" comment="" />
+      <created>1678177944141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678177944141</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First Commit Seminar 3">
+      <created>1678189974367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678189974367</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit Seminar 3">
+      <created>1678193776615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678193776615</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Naming">
+      <created>1678789515932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678789515932</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit Seminar 3" />
+    <MESSAGE value="Commit Seminar 3" />
+    <MESSAGE value="Naming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Naming" />
+  </component>
+</project>
