@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public abstract class ReaderAplicant {
     public abstract List<Aplicant> readAplicants(String file) throws FileNotFoundException;
-    public void readFromFile(Scanner input2,Aplicant aplicant)
+    public void readAplicantFromFile(Scanner input2,Aplicant aplicant)
     {
         aplicant.setNume(input2.next());
         aplicant.setPrenume(input2.next());

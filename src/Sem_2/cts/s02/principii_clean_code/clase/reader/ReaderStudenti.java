@@ -13,19 +13,19 @@ import java.util.Scanner;
 public class ReaderStudenti extends ReaderAplicant{
     @Override
     public List<Aplicant> readAplicants(String file) throws FileNotFoundException {
-        Scanner input2 = new Scanner(new File(file));
-        input2.useDelimiter(",|\n");
+        Scanner scanner = new Scanner(new File(file));
+        scanner.useDelimiter(",|\n");
         List<Aplicant> studenti = new ArrayList<>();
 
-        while (input2.hasNext()) {
+        while (scanner.hasNext()) {
             Student student=new Student();
-            super.readFromFile(input2,student);
-            student.setAn_studii(input2.nextInt());
-            student.setFacultate(input2.next());
+            super.readAplicantFromFile(scanner,student);
+            student.setAn_studii(scanner.nextInt());
+            student.setFacultate(scanner.next());
             studenti.add(student);
         }
 
-        input2.close();
+        scanner.close();
         return studenti;
     }
 }
