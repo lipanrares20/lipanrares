@@ -2,9 +2,9 @@ package ro.ase.composite.models;
 
 
 public interface IComponentaAbstracta {
-    public void addNod(IComponentaAbstracta nod);
-    public void stergeNod(IComponentaAbstracta nod);
-    public void getNod(int index);
+    public void adaugaNod(IComponentaAbstracta nod) throws Exception;
+    public void stergeNod(IComponentaAbstracta nod) throws Exception;
+    public IComponentaAbstracta getNodCopil(int index) throws Exception;
     public void afiseazaComponenta(String indentare);
 
 }
