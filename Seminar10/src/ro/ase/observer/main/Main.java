@@ -19,5 +19,7 @@ public class Main {
         restaurant.notificareClienti("Avem mici ieftini!");
         restaurant.adaugareDiscount("20");
 
+
+
     }
 }
